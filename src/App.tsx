@@ -53,7 +53,7 @@ function App() {
             color: 'var(--text-default)'
           }}
         >
-          Outages
+          Outages (SAMPLE ADDRESSES)
         </div>
         <div style={{ marginBottom: 8 }}>
           <GeoJsonIngest />
