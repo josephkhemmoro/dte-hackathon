@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.91528, 42.44474]
+      },
+      "properties": {
+        "address": "20895 Van Antwerp St Harper Woods, MI 48225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.93283, 42.46949]
+      },
+      "properties": {
+        "address": "23330 Rosalind Ave Eastpointe, MI 48021"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.98289, 42.42636]
+      },
+      "properties": {
+        "address": "13644 Gratiot Ave Detroit, MI 48205"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.96409, 42.38333]
+      },
+      "properties": {
+        "address": "3557 Springle St Detroit, MI 48215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.02886, 42.46514]
+      },
+      "properties": {
+        "address": "7520 Republic Ave Center Line, MI 48091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.955019, 42.37465]
+      },
+      "properties": {
+        "address": "1254 Lakeview St Detroit, MI 48215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.02999, 42.42479]
+      },
+      "properties": {
+        "address": "7100 Iowa St Hamtramck, MI 48212"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.98771, 42.42983]
+      },
+      "properties": {
+        "address": "18425 Hickory St Detroit, MI 48205"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.98359, 42.45956]
+      },
+      "properties": {
+        "address": "13726 Leonard Ave Warren, MI 48089"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.12805, 42.48187]
+      },
+      "properties": {
+        "address": "913 Owana Ave Royal Oak, MI 48067"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.10659, 42.43477]
+      },
+      "properties": {
+        "address": "19333 Danbury St Highland Park, MI 48203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.28189, 42.41049]
+      },
+      "properties": {
+        "address": "16570 Fenton St Detroit, MI 48219"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.18810, 42.45528]
+      },
+      "properties": {
+        "address": "21821 Cloverlawn St Oak Park, MI 48237"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.10866, 42.38288]
+      },
+      "properties": {
+        "address": "2277 Lawrence St Detroit, MI 48206"
+      }
+    }
+  ]
+}

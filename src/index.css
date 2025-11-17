@@ -1,0 +1,99 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  --text-default: #000000;
+  --bg-default: #242424;
+  --panel-bg: #ffffff; /* light panel background */
+  --panel-border: #e5e7eb;
+  --muted: #6b7280;
+  --accent: #3b82f6;
+
+  color: var(--text-default);
+  background-color: var(--bg-default);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+button:hover {
+  border-color: #ffffff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-default: #213547;
+    --bg-default: #ffffff;
+    --panel-bg: #ffffff;
+    --panel-border: #e5e7eb;
+    --muted: #6b7280;
+    --accent: #3b82f6;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+/* Themed scrollbar for the job list */
+.job-list {
+  scrollbar-color: var(--panel-border) var(--panel-bg); /* thumb track for firefox */
+}
+
+/* WebKit-based browsers */
+.job-list::-webkit-scrollbar {
+  width: 12px;
+}
+.job-list::-webkit-scrollbar-track {
+  background: var(--panel-bg);
+  border-radius: 8px;
+}
+.job-list::-webkit-scrollbar-thumb {
+  background-color: var(--panel-border);
+  border-radius: 8px;
+  border: 3px solid var(--panel-bg);
+}
+
